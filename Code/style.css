@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(255, 255, 255);
+}
+#navbarfinal{
+height: 80px;
+background: #fff;
+position: fixed;
+display: flex;
+align-items: center;
+padding: 0;
+margin-top: 50px;
+z-index: 20;
+box-shadow: 0 4px 30px rgba(0,0,0,.08);
+}
+#titlediv{
+  margin-top: 82px;
 }
 #main-logo-image{
     width: 300px; /* width of container */
@@ -9,15 +26,45 @@
     object-fit:cover;
 }
 #first{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,4,72,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%); ;
+    margin-top: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-right: 124px;
+}
+#titlebtn1{
+  color: rgb(253, 253, 253);
+  background: aqua;
+}
+#titlebtn1:hover{
+  background:white;
+  color:aqua;
+}
+#titlebtn2{
+  color: rgb(253, 253, 253);
+  background: aqua;
+}
+#titlebtn2:hover{
+  background:white;
+  color:aqua;
 }
 #second{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); ;
+   
 }
 
-img{
-    height: 400px;
-    
+#carouselExampleSlidesOnly{
+  height: 250px;
+  width: 250px;
+  /* padding-left: 122px; */
+  margin-left: 322px;
+}
+#loginbtn{
+  font-weight: bolder;
+}
+#loginbtn:hover{
+   color:white;
+   background: aqua;
+   border-radius: 5%;
 }
 .card{
     border: 2px solid black;
@@ -26,15 +73,15 @@ img{
     display: flex;
     text-align: center;
     justify-content: center;
-    color: rgb(53, 135, 207);
-    background: white;
+    color: rgb(253, 253, 253);
+    background: aqua;
     margin-top: 20px;
     position: relative;
     right: -555px;
 }
 #exambtn:hover{
-    background:rgb(53, 135, 207); 
-    color: white;
+    background:white;
+    color:aqua;
 }
 
 #slider {
@@ -151,6 +198,51 @@ img{
 
 
   #third{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,4,72,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%); 
+    
     height: 715px;
   }
+  #Examination{
+    color: aqua;
+  }
+  #popular{
+    color: aqua;
+  }
+  #reads{
+    color: aqua;
+  }
+  #popularexams{
+      margin-left: 130px;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* align-items: center; */
+
+  }
+
+  .circle
+{
+  height: 367px;
+  width: 367px;
+  border-radius: 50%;
+  position: absolute;
+  top: 97%;
+  left: 75%;
+  background: radial-gradient(#ffffffca,#48D4FF 70%);
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 9.15); */
+  z-index: 0;
+}
+.circle2
+{
+    top: 45%;
+    left: 51%;
+    background: radial-gradient(#ffffffca,#E91E63 70%);
+}
+hr{
+  color: aqua;
+}
+.bbDivider {
+  background-color: aqua;
+  border-radius: 10px;
+  height: 2.5px;
+  text-align: center;
+margin-top: 0px;
+}
