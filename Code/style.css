@@ -18,7 +18,7 @@ z-index: 20;
 box-shadow: 0 4px 30px rgba(0,0,0,.08);
 }
 #titlediv{
-  margin-top: 82px;
+  margin-top: 97px;
 }
 #main-logo-image{
     width: 300px; /* width of container */
@@ -30,23 +30,26 @@ box-shadow: 0 4px 30px rgba(0,0,0,.08);
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    margin-right: 124px;
+    margin-right: 24px;
+}
+#second{
+  margin-top: 100px;
 }
 #titlebtn1{
   color: rgb(253, 253, 253);
-  background: aqua;
+  background: #2596BE;
 }
 #titlebtn1:hover{
   background:white;
-  color:aqua;
+  color:#2596BE;
 }
 #titlebtn2{
   color: rgb(253, 253, 253);
-  background: aqua;
+  background: #2596BE;
 }
 #titlebtn2:hover{
   background:white;
-  color:aqua;
+  color:#2596BE;
 }
 #second{
    
@@ -56,14 +59,14 @@ box-shadow: 0 4px 30px rgba(0,0,0,.08);
   height: 250px;
   width: 250px;
   /* padding-left: 122px; */
-  margin-left: 322px;
+  margin-left: 122px;
 }
 #loginbtn{
   font-weight: bolder;
 }
 #loginbtn:hover{
    color:white;
-   background: aqua;
+   background: #2596BE;
    border-radius: 5%;
 }
 .card{
@@ -74,14 +77,14 @@ box-shadow: 0 4px 30px rgba(0,0,0,.08);
     text-align: center;
     justify-content: center;
     color: rgb(253, 253, 253);
-    background: aqua;
+    background: #2596BE;
     margin-top: 20px;
     position: relative;
     right: -555px;
 }
 #exambtn:hover{
     background:white;
-    color:aqua;
+    color:#2596BE;
 }
 
 #slider {
@@ -202,13 +205,13 @@ box-shadow: 0 4px 30px rgba(0,0,0,.08);
     height: 715px;
   }
   #Examination{
-    color: aqua;
+    color: #2596BE;
   }
   #popular{
-    color: aqua;
+    color: #2596BE;
   }
   #reads{
-    color: aqua;
+    color: #2596BE;
   }
   #popularexams{
       margin-left: 130px;
@@ -237,10 +240,10 @@ box-shadow: 0 4px 30px rgba(0,0,0,.08);
     background: radial-gradient(#ffffffca,#E91E63 70%);
 }
 hr{
-  color: aqua;
+  color: #2596BE;
 }
 .bbDivider {
-  background-color: aqua;
+  background-color: #2596BE;
   border-radius: 10px;
   height: 2.5px;
   text-align: center;
